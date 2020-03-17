@@ -1,0 +1,26 @@
+baseurl = "https://adamwills.io"
+languageCode = "en-us"
+title = "Adam Wills"
+googleAnalytics = "UA-9487590-17"
+pluralizelisttitles = false
+
+[params]
+    description = "Adam Wills is a web developer and photographer based in Hamilton, Ontario, Canada"
+    subtitle = "Web Developer. Photographer."
+    themecolour = "#d40d0a"
+    twitter = "@adamwillsdev"
+    
+[author]    
+name = "Adam Wills"
+
+[[menu.main]]
+    name = "Home"
+    weight = -110
+    identifier = "home"
+    url = "/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    identifier = "blog"
+    url = "/blog"

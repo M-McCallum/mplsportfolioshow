@@ -1,0 +1,32 @@
+    <footer class="footer">
+      <div class="bio">
+        Adam Wills is a web developer and photographer from Hamilton, Ontario, Canada. Site built using <a href="https://gohugo.io/">Hugo</a>.
+      </div>
+      <div class="social">
+        <a href="https://github.com/AdamWills"><svg class="icon" aria-labelledby="title-github"><title id="title-github">GitHub</title><use xlink:href="#github" /></svg></a>
+        <a href="https://twitter.com/adamwillsdev"><svg class="icon"  aria-labelledby="title-twitter"><title id="title-twitter">Twitter</title><use xlink:href="#twitter" /></svg></a>
+        <a href="https://www.linkedin.com/in/adamwillsdev/"><svg class="icon"  aria-labelledby="title-linkedin"><title id="title-linkedin">LinkedIn</title><use xlink:href="#linkedin" /></svg></a>
+      </div>
+    </footer>
+
+    {{ partial "nav.html" . }}
+
+    <div class="sprite">
+    {{ partial "symbol/svg/sprite.symbol.svg" . }}
+    </div>
+  
+  <script>
+    const toggleNav = document.querySelector('.toggle-nav');
+    const body = document.querySelector('body');  
+    toggleNav.addEventListener('click', e => {
+      body.classList.toggle('open-nav');
+      e.target.classList.toggle('open');
+      toggleNav.innerHTML = e.target.classList.contains('open') ? 'Close' : 'Menu';
+    });
+  </script>
+  <script async src='/js/app.js'></script>
+  <!-- Google Analytics -->
+  {{ template "_internal/google_analytics_async.html" . }}
+
+</body>
+</html>
