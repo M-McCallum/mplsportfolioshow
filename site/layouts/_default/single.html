@@ -1,19 +1,5 @@
-{{ partial "header.html" . }}
-
-<main class="main">
-  <div class="main-container">
-    <article>
-    <div class="page-header">
-      <h1 class="page-header__title">{{ .Title }}</h1>
-    </div>
-      
-      {{ .Content }}
-
-      <footer>
-        Like this? Have any questions?<br> Reach out via Twitter at <a href="https://twitter.com/adamwillsdev">@adamwillsdev</a>
-      </footer>
-    
-    </article>
-</main>
-
-{{ partial "footer.html" . }}
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+<article class="content">
+  <main>{{- .Content -}}</main>
+</article>
+{{ end }}
