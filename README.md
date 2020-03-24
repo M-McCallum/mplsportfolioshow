@@ -1,3 +1,32 @@
+
+# Welcome
+
+Hugo is a really easy to learn and use Static site generator!
+Theres lots of useful links included below, I'll inlcude a few more for ya'll. 
+Watch the video linked below and then follow the steps to get started.
+
+***Introductory Youtube Video:*** 
+https://www.youtube.com/watch?v=c7vpcqA6SEQ  (We'll be building our own "theme") 
+
+***Step 1: Setting Up***
+
+Install Brew: https://brew.sh/
+
+Install NVM (Node Version Manager): `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash` 
+(check out their github for more info
+
+Use NVM to install **Version 12** of Node.js: `nvm install 12`
+
+install HUGO using 
+
+## Useful Links
+
+Markdown Cheatsheet: https://www.markdownguide.org/cheat-sheet/
+
+
+
+**---------------------------------------------------------------------------------**
+
 # Victor Hugo
 
 **A Hugo boilerplate for creating truly epic websites**
