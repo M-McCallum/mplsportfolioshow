@@ -10,19 +10,39 @@ https://www.youtube.com/watch?v=c7vpcqA6SEQ  (We'll be building our own "theme")
 
 ***Step 1: Setting Up***
 
-Install Brew: https://brew.sh/
+Install Brew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" `
+(more info here: https://brew.sh)
 
 Install NVM (Node Version Manager): `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash` 
-(check out their github for more info
+(check out their github for more info https://github.com/nvm-sh/nvm)
 
 Use NVM to install **Version 12** of Node.js: `nvm install 12`
+(heres a decent article explaining what this is: https://www.educative.io/edpresso/what-is-nvm)
 
-install HUGO using 
+Use Brew to install HUGO: `brew install hugo` 
+(as referenced here: https://gohugo.io/getting-started/quick-start/)
 
+*you should all have git installed but just in case you don't follow the instructions at the link below
+(https://gist.github.com/derhuerst/1b15ff4652a867391f03)*
+
+***Step 2: Setting up the Repo***
+
+Lets do the Following things using terminal if you forgot the commands no worries I'll include them to the side.
+
+- Open  Terminal
+- navigate to your desktop or wherever you what to put the project file: ` cd desktop `
+- make a new directory: ` mkdir "myProjectFolder" ` (call it whatever you want, dont include the quotes) 
+- move into that directory: ` cd "myProjectFolder" ` 
+- now its time for git, clone this repo into your folder: ` git clone "address-copied-from-above" ` 
+(if you press the clone or download button on the top of this page you can see the address to copy) 
+**YOURE DONE**
+
+navigate to your desktop or wherever you want to keep this project: ` cd `
 ## Useful Links
 
 Markdown Cheatsheet: https://www.markdownguide.org/cheat-sheet/
 
+Git Cheatsheet: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 
 
 **---------------------------------------------------------------------------------**
