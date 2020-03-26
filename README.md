@@ -29,9 +29,8 @@ Use Brew to install HUGO: `brew install hugo`
 
 ***Step 2: Setting up the Repo***
 
-Lets do the following things using terminal, if you forgot the commands no worries I'll include them to the side.
+Use Terminal to complete the following steps, if you forgot the commands no worries I'll include them to the side.
 
-- Open Terminal
 - navigate to your desktop or wherever you what to put the project file: `cd desktop `
 - make a new directory: `mkdir "myProjectFolder" ` (call it whatever you want, don't include the quotes)
 - move into that directory: `cd "myProjectFolder" `
