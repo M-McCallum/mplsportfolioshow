@@ -2,8 +2,10 @@
 # Welcome
 
 Hugo is a really easy to learn and use Static site generator!
-Theres lots of useful links included below, I'll inlcude a few more for ya'll.
-Watch the video linked below and then follow the steps to get started.
+Theres lots of useful links included in the Victor Hugo Doc in the Documentation Folder,
+I'll include a few more for ya'll.
+
+**Please Watch the video linked below and then follow the steps to get started.**
 
 ***Introductory Youtube Video:***
 https://www.youtube.com/watch?v=c7vpcqA6SEQ  (We'll be building our own "theme")
@@ -40,7 +42,6 @@ Lets do the following things using terminal, if you forgot the commands no worri
 (Refer to this article for what npm is: https://docs.npmjs.com/about-npm/)
 - MORE DOCS ON HOW TO USE HUGO AND THE NODE SCRIPTS COMING SOON (check the Documentation folder)
 
-**YOU'RE DONE**
 
 ## Useful Links
 
