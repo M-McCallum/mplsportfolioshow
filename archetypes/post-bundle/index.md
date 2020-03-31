@@ -1,9 +1,9 @@
-+++
-title = nameOfDesigner
-description = " Put bio here "
-type = post
+---
+title: "nameOfDesigner"
+description: " Put bio here "
+type: "post"
 image = url("images/putBioPhotoNameHere.jpeg")
-+++
+---
 
 {{ with .Resources.Match "images/*.jpeg" }}
 	<div class="portfolio-choice">

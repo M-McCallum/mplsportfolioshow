@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+      {{ partial "head" .}}
+  <body>
+    <div class="innerCont">
+      {{ range (where .Site.RegularPages "Type" "designer")}}
+      <div class="study-item">
+        <div class="item-text">
+          <a class="item-title" href="{{ .Permalink}}">{{ .Title }}</a>
+          <p>{{ .Description}}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </body>
+</html>
