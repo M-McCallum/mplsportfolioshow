@@ -1,32 +1,188 @@
-/*
-  You can use import statements to include partials:
- */
+
 @import 'imports/reset.css';
 
-/*
-  Or add your statements here:
- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  --crop-border-width: 2px;
+  --crop-border-length: 5vw;
+  --gap: 1rem;
+  --line-border-width: var(--crop-border-width);
+  min-height: 100vh;
+  -webkit-appearance: none;
+}
+
 body {
-  font-size: calc(10px + 1vmin);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ padding: var(--gap);
+ height: 100%;
+ font-family: "HelveticaNowDisplay", sans-serif;
 
+}
+
+h1 {
+  font-weight: lighter;
+  margin: 0;
+}
+
+h2 {
+  color: #000;
+}
+
+
+.container {
+ margin: var(--gap);
+}
+
+.hero {
+  height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-flow: row;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #282c34;
-  color: white;
+  margin: calc(var(--crop-border-length) * 1.75);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-a {
-  color: pink;
+.logo {
+  width: 50%;
+  min-width: 20rem;
+  margin-right: calc(var(--gap) * 2);
+}
+
+.logo img {
+  width: 100%;
+}
+
+.logo--small {
+  display: none;
+}
+
+.crop {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: var(--crop-border-width) solid;
+  border-image: linear-gradient(#000 ,#000)
+    1 /
+    var(--crop-border-length) 1 var(--crop-border-length) 1 /
+    0
+    space;
+}
+
+.crop::after {
+  content: '';
+  position: inherit;
+  top: inherit;
+  left: inherit;
+  right: inherit;
+  bottom: inherit;
+  border: var(--crop-border-width) solid;
+  margin: calc(-1 * var(--crop-border-width));
+  border-image: linear-gradient(#000 ,#000)
+    1 /
+    1 var(--crop-border-length) 1 var(--crop-border-length) /
+    0
+    space;
+}
+
+
+
+
+
+@media screen and (max-width: 40rem) {
+    body {
+      background: #000;
+      color: #fff;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+
+    }
+
+    h2 {
+      color: #fff;
+    }
+
+    .crop {
+      border: none;
+
+    }
+
+    .crop::after {
+      border: none;
+    }
+
+    .hero {
+      flex-flow: column;
+      height: auto;
+    }
+
+    .logo {
+      width: 30vw;
+    }
+    .logo--large {
+      display: none;
+    }
+    .logo--small {
+      display: block;
+      margin-right: none;
+    }
+
+    .line {
+      width: 3px;
+      height: 20vh;
+      margin: 0 auto;
+      margin-bottom: var(--gap);
+      margin-top: var(--gap);
+      background-color: white;
+    }
+
+  .line-bottom {
+    margin-top: calc(var(--gap) * 4);
+    height: 30vh;
+  }
+}
+
+
+
+
+/* -------HEADER------- */
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-height: 20vh;
+  width: 100%;
+  padding: calc(var(--gap) * 2) var(--gap);
+
+}
+
+
+.nav {
+  height: auto;
+  margin-left: auto;
+  max-width: 15rem;
+}
+
+.nav a {
   text-decoration: none;
+  color: #000;
+  margin-left: 2rem;
 }
 
-.content {
-  padding: 0 32px;
+.nav a:hover a::after {
+  content: ' ';
+  margin: 0;
+  border-bottom:
 }
