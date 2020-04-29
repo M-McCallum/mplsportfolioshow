@@ -1,7 +1,9 @@
 ---
-title: 'tech'
-date: 2018-11-14T19:02:50-07:00
+title: 'Morgan Etienne'
 draft: false
+type: "designer"
+description: "Print Designer"
+image: "https://placekitten.com/200/200"
 ---
 
 # [Victor Hugo](https://github.com/netlify-templates/victor-hugo)
