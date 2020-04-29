@@ -1,9 +1,18 @@
 {
   "main": {
-    "css": "main.css",
-    "js": "main.js"
+    "css": "main.3d9e0.css",
+    "js": "main.3d9e0.js"
   },
   "": {
-    "": "fonts/.keep"
+    "": "fonts/.keep",
+    "woff": [
+      "fonts/HelveticaNowDisplay-Bold.woff",
+      "fonts/HelveticaNowDisplay-Md.woff"
+    ],
+    "woff2": [
+      "fonts/HelveticaNowDisplay-Bold.woff2",
+      "fonts/HelveticaNowDisplay-Md.woff2"
+    ],
+    "css": "fonts/stylesheet.css"
   }
 }

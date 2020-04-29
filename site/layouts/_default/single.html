@@ -1,5 +1,27 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
-<article class="content">
-  <main>{{- .Content -}}</main>
-</article>
+<div class="wrap">
+  <section class="main">
+    <div class="main--left">
+      <img src="{{ with .Params.image }}{{ . }}{{ end }}" alt=" Artist headshot">
+      <div class="bio-wrap">
+        <h1 class="name">{{ .Title }}</h1>
+        <h2 class="major">{{ .Description }}</h2>
+        {{- .Content -}}
+        <a href="{{ .Params.portfolio }}" class="button">View Portfolio</a>
+      </div>
+
+    </div>
+    <div class="main--right">
+      <div class="gallery">
+        {{ with .Resources.Match "works/**.jpg" }}
+        	{{ range . }}
+          <div class="slide">
+        		<img src="{{ .RelPermalink }}">
+          </div>
+        	{{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>
 {{ end }}
