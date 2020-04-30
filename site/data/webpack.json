@@ -1,7 +1,7 @@
 {
   "main": {
-    "css": "main.3d9e0.css",
-    "js": "main.3d9e0.js"
+    "css": "main.css",
+    "js": "main.js"
   },
   "": {
     "": "fonts/.keep",
@@ -13,6 +13,7 @@
       "fonts/HelveticaNowDisplay-Bold.woff2",
       "fonts/HelveticaNowDisplay-Md.woff2"
     ],
-    "css": "fonts/stylesheet.css"
+    "css": "fonts/stylesheet.css",
+    "json": "9856cf75beb59faabf16.hot-update.json"
   }
 }

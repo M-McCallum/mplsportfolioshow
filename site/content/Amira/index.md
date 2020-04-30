@@ -1,5 +1,5 @@
 ---
-title: 'Ameria Hollman'
+title: 'Amria Hollman'
 draft: false
 type: "designer"
 description: "Print Designer"

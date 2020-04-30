@@ -69,6 +69,7 @@ a {
   display: none;
 }
 
+
 /* .crop {
   pointer-events: none;
   position: absolute;
@@ -133,6 +134,7 @@ a {
 .embed img {
   width: 200px;
   height: 200px;
+  border: solid #000 3px;
 }
 
 .designer-title {
@@ -307,6 +309,9 @@ a {
 }
 .slide:nth-child(4) {
   transform: translateX(-150px) translateY(-25rem);
+}
+.slide:nth-child(5) {
+  transform: translateX(150px)  translateY(-45rem);
 }
 
 .slide img {

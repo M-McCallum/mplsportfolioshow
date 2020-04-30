@@ -1,5 +1,5 @@
 ---
-title: 'Patrick Lemming'
+title: 'Patrick Leeming'
 draft: false
 type: "designer"
 description: "Print & Web Designer"
