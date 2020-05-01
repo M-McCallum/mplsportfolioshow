@@ -1,5 +1,4 @@
 
-@import 'imports/reset.css';
 
 *,
 *::before,
@@ -20,7 +19,6 @@ html {
 
 body {
  padding: var(--gap);
- height: 100%;
  font-family: "HelveticaNowDisplay", sans-serif;
 
 }
@@ -69,7 +67,8 @@ a {
   display: none;
 }
 
-/* .crop {
+/*
+.crop {
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -133,71 +132,20 @@ a {
 .embed img {
   width: 200px;
   height: 200px;
+  border: solid #000 3px;
 }
 
 .designer-title {
   margin-left: var(--gap);
 }
 
-@supports (display: grid) {
-  .box {
-    margin: 0;
-  }
+.has-intersectionObserver .fadein {
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
-@media screen and (max-width: 40rem) {
-    body {
-      background: #000;
-      color: #fff;
-    }
-    h1 {
-      text-align: center;
-      font-size: 2rem;
-
-    }
-
-    h2 {
-      color: #fff;
-    }
-
-    .crop {
-      border: none;
-
-    }
-
-    .crop::after {
-      border: none;
-    }
-
-    .hero {
-      flex-flow: column;
-      height: auto;
-    }
-
-    .logo {
-      width: 30vw;
-    }
-    .logo--large {
-      display: none;
-    }
-    .logo--small {
-      display: block;
-      margin-right: none;
-    }
-
-    .line {
-      width: 3px;
-      height: 20vh;
-      margin: 0 auto;
-      margin-bottom: var(--gap);
-      margin-top: var(--gap);
-      background-color: white;
-    }
-
-  .line-bottom {
-    margin-top: calc(var(--gap) * 4);
-    height: 30vh;
-  }
+.has-intersectionObserver .fadein--anim {
+  opacity: 1;
 }
 
 
@@ -206,7 +154,10 @@ a {
 /* -------HEADER------- */
 
 .header {
-  position: sticky;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  background: #fff;
   top: 0;
   left: 0;
   right: 0;
@@ -214,12 +165,14 @@ a {
   width: 100%;
   padding: calc(var(--gap) * 2) var(--gap);
   margin-top: calc(-1 * var(--gap));
+  z-index: 999;
 }
 
 .nav {
   height: auto;
   margin-left: auto;
   max-width: 15rem;
+  margin-bottom: 4px;
 }
 
 .nav a {
@@ -232,6 +185,23 @@ a {
   content: ' ';
   margin: 0;
 }
+
+.logo--head {
+  width: auto;
+  height: 3rem;
+  opacity: 0;
+  transition: opacity 375ms ease;
+}
+
+.headlogo {
+  width: auto;
+height: 3rem;
+}
+
+.headlogo--small {
+  display: none;
+}
+
 
 
 
@@ -261,6 +231,7 @@ a {
   align-items: center;
   height: 300px;
   margin-top: 10%;
+  margin-right: 5vw;
 }
 
 .main--left img {
@@ -299,18 +270,154 @@ a {
   flex: 1 0 auto;
 }
 
-.slide:nth-child(2) {
-  transform: translateX(-100px) translateY(-100px);
-}
-.slide:nth-child(3) {
-  transform: translateX(100px) translateY(-15rem);
-}
-.slide:nth-child(4) {
-  transform: translateX(-150px) translateY(-25rem);
+@media screen and (min-width: 40rem) {
+  .slide:nth-child(2) {
+    margin-top: -12vh;
+    margin-left: -4vw;
+  }
+  .slide:nth-child(3) {
+    margin-top: -15vh;
+    margin-left: 6vw;
+  }
 }
 
 .slide img {
   max-width: 300px;
   outline: 5px solid black;
   margin: var(--gap);
+}
+
+
+
+.lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+}
+
+.lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  padding: 4px;
+  background-color: black;
+}
+
+.works {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+@supports (display: grid) {
+  .box {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+    body {
+      background: #000;
+      color: #fff;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+
+    }
+
+    h2 {
+      color: #fff;
+    }
+
+    a {
+      color: #fff;
+    }
+
+    .crop {
+      border: none;
+
+    }
+
+    .crop::after {
+      border: none;
+    }
+
+    .hero {
+      flex-flow: column;
+      height: auto;
+      margin-top: 0;
+    }
+    .header {
+      background: #000;
+    }
+
+    .headlogo--large {
+      display: none;
+    }
+
+    .headlogo--small {
+      display: block;
+    }
+
+    .section {
+      min-height: 10vh;
+    }
+
+    .logo {
+      width: 30vw;
+    }
+    .logo--large {
+      display: none;
+    }
+    .logo--small {
+      display: block;
+      margin-right: none;
+    }
+
+    .info-wrap {
+      text-align: center;
+      margin: 2rem;
+    }
+    .designer-title {
+    }
+
+    .line {
+      width: 3px;
+      height: 20vh;
+      margin: 0 auto;
+      margin-bottom: var(--gap);
+      margin-top: var(--gap);
+      background-color: white;
+    }
+
+  .line-bottom {
+    margin-top: calc(var(--gap) * 4);
+    height: 30vh;
+  }
+
+  .main--left {
+    flex-flow: column;
+    margin-top: 10vh;
+    height: auto;
+  }
+  .gallery {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

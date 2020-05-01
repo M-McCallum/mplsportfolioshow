@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div class="wap">
-  <div class="container crop">
+<div class="wap crop">
+  <div class="container ">
     <div class="line"></div>
     <div class="hero section">
       <div class="logo">
@@ -14,8 +14,8 @@
       </div>
     </div>
     <div class="line bottom"></div>
-    <div class="about-wrap section">
-      <div class="content-well">
+    <div id="about" class="about-wrap section">
+      <div  class="content-well">
         <h2>A statement from The Designers:</h2>
         <p>
           We at Minneapolis College have, along with many other graduating design students from around the world, shifted our portfolio to a fully virtual format. The entirety of our courses have also been completed digitally, too. But we're still designing. We've been working hard to curate and show what we have accomplished during our time here at Minneapolis College, and we're glad you're here to view it.
@@ -29,7 +29,7 @@
     <h2 id="designers" class="designer-title">Designers</h2>
     <div  class="designer-wrap section">
       {{ range (where .Site.RegularPages "Type" "designer")}}
-      <div class="box">
+      <div class="box fadein">
         <a href="{{ .Permalink}}" class="embed">
           <img src="{{ with .Params.image }}{{ . }}{{ end }}" alt="Artist Headshot">
         </a>
