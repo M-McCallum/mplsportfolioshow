@@ -7,23 +7,23 @@ logoShow();
 
 
 function logoShow() {
-  if(!window.location.pathname === "/" && HEADLOGO.style.opacity === "0") {
-    HEADLOGO.style.opacity = "1";
+  console.log(window.location.pathname);
+  if(window.location.pathname !== "/" && HEADLOGO.style.visibility !== "hidden") {
+    HEADLOGO.style.visibility = "visible"
     return;
   } else {
     document.addEventListener('scroll',  function(){
       logoPos = getTop(LOGO);
       if(logoPos <= -50) {
         LOGO.style.opacity = "0";
-        HEADLOGO.style.opacity = "1";
+        HEADLOGO.style.visibility = "visible";
       } else {
         LOGO.style.opacity = "1";
-        HEADLOGO.style.opacity = "0";
+        HEADLOGO.style.visibility = "hidden";
       }
+    });
   }
-  });
 }
-
 
 
 
@@ -68,7 +68,7 @@ function getTop(el) {
 
 
 const images = document.querySelectorAll('.works')
-
+var lightbox = document.querySelector('.lightbox')
 
 images.forEach(image => {
   image.addEventListener('click', e => {
