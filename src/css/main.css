@@ -189,8 +189,8 @@ a {
 .logo--head {
   width: auto;
   height: 3rem;
-  opacity: 0;
-  transition: opacity 375ms ease;
+  visibility: hidden;
+  transition: visibility 375ms ease;
 }
 
 .headlogo {
@@ -316,8 +316,13 @@ height: 3rem;
   cursor: pointer;
 }
 
+.slide:nth-child(3 + n) {
+  display: none;
+}
 
 
+
+/* -------ABOUT PAGE------- */
 
 
 
@@ -409,10 +414,14 @@ height: 3rem;
     height: 30vh;
   }
 
+  .main {
+    margin-left: -.5rem;
+  }
   .main--left {
     flex-flow: column;
-    margin-top: 10vh;
+    margin-top: 5vh;
     height: auto;
+    margin-right: 0;
   }
   .gallery {
     display: flex;
@@ -420,4 +429,14 @@ height: 3rem;
     justify-content: center;
     align-items: center;
   }
+
+  .button {
+    border: solid white 3px;
+  }
+
+}
+
+
+.lightbox.active {
+  margin-left: -1rem;
 }
