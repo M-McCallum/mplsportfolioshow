@@ -16,12 +16,15 @@
         {{ with .Resources.Match "works/**.jpg" }}
         	{{ range . }}
           <div class="slide">
-        		<img src="{{ .RelPermalink }}">
+        		<img class="works" src="{{ .RelPermalink }}">
           </div>
         	{{ end }}
         {{ end }}
       </div>
     </div>
   </section>
+</div>
+<div id="lightbox" class="lightbox">
+
 </div>
 {{ end }}

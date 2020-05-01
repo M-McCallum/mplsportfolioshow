@@ -3,15 +3,7 @@ title: 'Morgan Etienne'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "https://placekitten.com/200/200"
+image: "images/morgan.jpg"
+portfolio: "https://www.morganetienne.myportfolio.com"
 ---
-
-# [Victor Hugo](https://github.com/netlify-templates/victor-hugo)
-
-## A Hugo boilerplate for creating truly epic websites
-
-<img src="https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg" style="width: 40%" />
-
-This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline. Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling. This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
-
-## Enjoy!! 😸
+I think it is important for things to be beautiful and visually pleasing in life. I begin my design process by thinking about what I want to design until I think of an idea I truly love, and then running with it.
