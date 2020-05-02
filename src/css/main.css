@@ -324,7 +324,9 @@ height: 3rem;
 
 /* -------ABOUT PAGE------- */
 
-
+  .content-well {
+    max-width: 90ch;
+  }
 
 
 @supports (display: grid) {
