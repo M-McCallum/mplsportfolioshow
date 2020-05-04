@@ -3,7 +3,7 @@ title: 'Melissa Goodman'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/melissa.jpg"
+image: "images/melissa.webp"
 portfolio: "https://www.behance.net/mg66"
 ---
 

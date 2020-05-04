@@ -3,7 +3,7 @@ title: 'Elena Born'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/elena.jpg"
+image: "images/elena.webp"
 portfolio: "https://www.behance.net/elenaborn1"
 ---
 

@@ -3,7 +3,7 @@ title: 'Maya Davies'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/maya.jpg"
+image: "images/maya.webp"
 portfolio: "https://www.behance.net/mayadavies1"
 ---
 

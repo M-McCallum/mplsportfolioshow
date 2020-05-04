@@ -3,7 +3,7 @@ title: 'Andrew Houts'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/andrew.jpg"
+image: "images/andrew.webp"
 portfolio: "https://www.behance.net/andrewhouts"
 ---
 

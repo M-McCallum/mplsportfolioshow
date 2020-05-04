@@ -3,7 +3,7 @@ title: 'Jacob Fossum'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/jake.jpg"
+image: "images/jake.webp"
 portfolio: "https://www.behance.net/jacobfossum"
 ---
 

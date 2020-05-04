@@ -3,7 +3,7 @@ title: 'Alex Schroeter'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/alex.jpg"
+image: "images/alex.webp"
 portfolio: "https://www.alexschroeter.io"
 ---
 
