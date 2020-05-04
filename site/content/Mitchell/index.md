@@ -3,7 +3,7 @@ title: 'Mitchell McCallum Crum'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/mitchell.jpg"
+image: "images/mitchell.webp"
 portfolio: "https://www.mitchellmccallum.com"
 ---
 

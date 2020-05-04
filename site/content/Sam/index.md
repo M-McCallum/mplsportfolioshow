@@ -3,7 +3,7 @@ title: 'Sam Dirck'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/sam.jpg"
+image: "images/sam.webp"
 portfolio: "https://www.samdirck.com"
 ---
 

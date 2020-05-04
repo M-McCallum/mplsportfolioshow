@@ -3,7 +3,7 @@ title: 'Dan Mangen-Johnson'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/dan.jpg"
+image: "images/dan.webp"
 portfolio: "https://www.danmangen-johnson.com"
 ---
 

@@ -3,7 +3,7 @@ title: 'Patrick "Tim" McCann'
 draft: false
 type: "designer"
 description: "Print and Web Designer"
-image: "images/tim.jpg"
+image: "images/tim.webp"
 portfolio: "https://pattimmccann.com/"
 ---
 

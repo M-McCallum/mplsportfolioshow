@@ -3,7 +3,7 @@ title: 'Harvey Jackson'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/harvey.jpg"
+image: "images/harvey.webp"
 portfolio: "https://www.behance.net/harveyjackson1"
 ---
 

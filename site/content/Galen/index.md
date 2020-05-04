@@ -3,7 +3,7 @@ title: 'Galen Riggs'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/galen.jpg"
+image: "images/galen.webp"
 portfolio: "https://www.behance.net/galenriggs"
 ---
 
