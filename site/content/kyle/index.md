@@ -1,5 +1,5 @@
 ---
-title: 'Kyla Millington'
+title: 'Kyle Sexton'
 draft: false
 type: "designer"
 description: "Web Designer"

@@ -3,7 +3,7 @@ title: 'Patrick Leeming'
 draft: false
 type: "designer"
 description: "Print & Web Designer"
-image: "images/patrick.webp"
+image: "images/patrick.jpg"
 portfolio: "https://www.printdesignbypml.com"
 ---
 

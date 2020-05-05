@@ -3,7 +3,7 @@ title: 'Alex Perez'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/alex-p.webp"
+image: "images/alex-p.jpg"
 portfolio: "https://www.behance.net/ALperez"
 ---
 

@@ -3,7 +3,7 @@ title: 'Luis-Enrique Pineda'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/luis.webp"
+image: "images/luis.jpg"
 portfolio: "https://www.lepx998.com/"
 ---
 

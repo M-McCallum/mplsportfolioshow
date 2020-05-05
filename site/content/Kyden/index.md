@@ -3,7 +3,7 @@ title: 'Kyden Wahl'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/kyden.webp"
+image: "images/kyden.jpg"
 portfolio: "http://kydenwahlwebi2012.com/Kyden-Wahl.html"
 ---
 

@@ -3,7 +3,7 @@ title: 'Kera Quinn'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/kera.webp"
+image: "images/kera.jpg"
 portfolio: "https://keraquinn.wordpress.com/"
 ---
 

@@ -3,7 +3,7 @@ title: 'Hayley Rowan'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/haley.webp"
+image: "images/haley.jpg"
 portfolio: "https://www.behance.net/hayleyrowanmn/"
 ---
 

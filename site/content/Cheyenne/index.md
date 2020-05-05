@@ -3,7 +3,7 @@ title: 'Cheyenne Smith'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/cheyenne.webp"
+image: "images/cheyenne.jpg"
 portfolio: "https://www.cheyenneis.online"
 ---
 

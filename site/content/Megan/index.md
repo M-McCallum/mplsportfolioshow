@@ -3,7 +3,7 @@ title: 'Megan Thompson'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/megan.webp"
+image: "images/megan.jpg"
 portfolio: "https://www.megannt.com"
 ---
 

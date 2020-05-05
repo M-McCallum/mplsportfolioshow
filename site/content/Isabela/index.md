@@ -3,7 +3,7 @@ title: 'Isabela Cruz'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/isabella.webp"
+image: "images/isabella.jpg"
 portfolio: "https://www.isabelacruzillustration.com"
 ---
 

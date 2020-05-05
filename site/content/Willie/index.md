@@ -3,7 +3,7 @@ title: 'Willie Burns'
 draft: false
 type: "designer"
 description: "Print Designer"
-image: "images/willie.webp"
+image: "images/willie.jpg"
 portfolio: "https://www.behance.net/willieburns"
 ---
 

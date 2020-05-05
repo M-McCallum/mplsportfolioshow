@@ -3,7 +3,7 @@ title: 'Manuel Gutierrez'
 draft: false
 type: "designer"
 description: "Web Designer"
-image: "images/manuel.webp"
+image: "images/manuel.jpg"
 portfolio: "https://gutiman.com/port/index.html"
 ---
 
